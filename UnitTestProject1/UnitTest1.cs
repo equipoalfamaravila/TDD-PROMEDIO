@@ -29,7 +29,7 @@ namespace UnitTestProject1
         {
             int[] conjunto = { -1, 2, -3, 4, -5 };
             double actual = calcularPromedio.calPromedio(conjunto);
-            double esperado = -6;
+            double esperado = -0.6;
             Assert.AreEqual(esperado, actual);
         }
 
